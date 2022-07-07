@@ -20,6 +20,7 @@ public class Calculate {
         driver.findElement(By.cssSelector("[value=Calculate]")).click();
         // Add check
         String message = driver.findElement(By.name("desc")).getAttribute("value");
+        driver.quit();
         Assert.assertFalse(message.isEmpty());
 
     }
@@ -39,6 +40,7 @@ public class Calculate {
         driver.findElement(By.cssSelector("[value=Calculate]")).click();
         // Add check
         String message = driver.findElement(By.name("desc")).getAttribute("value");
+        driver.quit();
         Assert.assertFalse(message.isEmpty());
 
     }
@@ -58,6 +60,7 @@ public class Calculate {
         driver.findElement(By.cssSelector("[value=Calculate]")).click();
         // Add check
         String message = driver.findElement(By.name("desc")).getAttribute("value");
+        driver.quit();
         Assert.assertFalse(message.isEmpty());
 
     }
@@ -77,6 +80,7 @@ public class Calculate {
         driver.findElement(By.cssSelector("[value=Calculate]")).click();
         // Add check
         String message = driver.findElement(By.name("desc")).getAttribute("value");
+        driver.quit();
         Assert.assertFalse(message.isEmpty());
 
     }
@@ -96,6 +100,7 @@ public class Calculate {
         driver.findElement(By.cssSelector("[value=Calculate]")).click();
         // Add check
         String message = driver.findElement(By.name("desc")).getAttribute("value");
+        driver.quit();
         Assert.assertFalse(message.isEmpty());
 
     }
