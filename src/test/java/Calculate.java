@@ -21,7 +21,7 @@ public class Calculate {
         // Add check
         String message = driver.findElement(By.name("desc")).getAttribute("value");
         Assert.assertFalse(message.isEmpty());
-        driver.quit();
+
     }
 
     @Test
@@ -40,7 +40,7 @@ public class Calculate {
         // Add check
         String message = driver.findElement(By.name("desc")).getAttribute("value");
         Assert.assertFalse(message.isEmpty());
-        driver.quit();
+
     }
 
     @Test
@@ -59,7 +59,7 @@ public class Calculate {
         // Add check
         String message = driver.findElement(By.name("desc")).getAttribute("value");
         Assert.assertFalse(message.isEmpty());
-        driver.quit();
+
     }
 
     @Test
@@ -78,7 +78,7 @@ public class Calculate {
         // Add check
         String message = driver.findElement(By.name("desc")).getAttribute("value");
         Assert.assertFalse(message.isEmpty());
-        driver.quit();
+
     }
 
     @Test
@@ -97,7 +97,7 @@ public class Calculate {
         // Add check
         String message = driver.findElement(By.name("desc")).getAttribute("value");
         Assert.assertFalse(message.isEmpty());
-        driver.quit();
+
     }
 
 }
